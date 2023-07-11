@@ -1,0 +1,17 @@
+
+.footer-cards {
+    background-color: var(--color-dark-gray);
+}
+
+.footer-cards .card {
+    width: 25%;
+    font-size: 2rem;
+    color: white;
+
+    line-height: 150%;
+}
+
+.footer-cards .card .icons a {
+    font-size: 5rem;
+    margin: 0 25px;
+}

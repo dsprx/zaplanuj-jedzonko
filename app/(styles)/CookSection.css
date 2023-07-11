@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 35%;
+    margin: 75px 0;
+}
+
+.cook-text {
+    width: 55%;
+
+    font-size: 2rem;
+    color: var(--color-dark-gray);
+}
+
+.cook-text h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.cook-text p {
+    line-height: 150%;
+}

@@ -1,0 +1,28 @@
+
+.card {
+    width: 30%;
+    color: var(--color-dark-gray);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    margin: 50px 0;
+
+    font-size: 7.5rem;
+}
+
+.card h3 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}

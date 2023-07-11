@@ -1,0 +1,52 @@
+
+.slider {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-size: cover;
+
+    position: relative;
+
+    margin-top: 75px;
+}
+
+.slider::after {
+    content: "";
+    background-color: white;
+    opacity: 0.3;
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+   
+}
+
+.slider button {
+    opacity: 0.6;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 5rem;
+    font-weight: bolder;
+
+    padding: 250px 80px;
+
+    z-index: 2;
+}
+
+.slider button:hover {
+    opacity: 1;
+}
+
+.slider-text {
+    z-index: 2;
+
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}

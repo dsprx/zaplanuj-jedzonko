@@ -1,0 +1,17 @@
+
+.copyright-bar {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: 25px 0;
+}
+
+.copyright-bar h4 {
+    font-weight: normal;
+}
+
+.copyright-bar strong {
+    color: var(--color-orange);
+}
