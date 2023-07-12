@@ -5,7 +5,7 @@ import "../(styles)/Benefits.css";
 
 export default function Benefits() {
     return (
-        <div className="container">
+        <div id="benefits" className="container">
             <Card icon={faCheck}/>
             <Card icon={faClock}/>
             <Card icon={faListDots}/>

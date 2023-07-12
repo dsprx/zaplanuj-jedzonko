@@ -12,7 +12,7 @@ export default function Something() {
                     <h2>Lorem ipsum dolor sit amet</h2>
                     <p>consectetur adipisicing elit. Ab doloribus, odit. A aperiam ea fuga maxime quibusdam repellendus veritatis?</p>
                 </div>
-                <Button text="Lorem Ipsum" pSides={50} pTop={20} fontSize={20}/>
+                <Button text="Lorem Ipsum"/>
             </div>
         </div>
     )

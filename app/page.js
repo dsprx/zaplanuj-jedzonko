@@ -3,7 +3,7 @@ import Navbar from "./(components)/Navbar";
 import Newsletter from "./(components)/Newsletter";
 import Slider from "./(components)/Slider";
 import Something from "./(components)/Something";
-import CookSection from "./(components)/CookSection";
+import About from "./(components)/About";
 import Footer from "./(components)/Footer";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         <Something/>
         <Benefits/>
         <Newsletter/>
-        <CookSection/>
+        <About/>
       </main>
       <Footer/>
     </>

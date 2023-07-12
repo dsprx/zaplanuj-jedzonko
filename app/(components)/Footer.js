@@ -9,7 +9,7 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="footer-cards">
+            <div id="contact" className="footer-cards">
                 <div className="container">
                     <FooterCard type="text"/>
                     <FooterCard type="list"/>
@@ -39,16 +39,9 @@ function FooterCard({ type }) {
         margin: 5
     }
 
-    const buttonStyle = {
-        text: "ZAPISUJĘ SIĘ",
-        pSides: 20,
-        pTop: 10,
-        fontSize: "1.5rem"
-    }
-
     const contact = (
         <>
-            <NewsletterForm inputSpecs={inputStyle} buttonSpecs={buttonStyle}/>
+            <NewsletterForm/>
             <div className="icons">
                 <a href="https://facebook.com/"><FontAwesomeIcon icon={faFacebook}/></a>
                 <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter}/></a>

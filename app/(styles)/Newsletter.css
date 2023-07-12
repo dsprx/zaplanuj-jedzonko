@@ -6,24 +6,80 @@
     padding: 50px 0;
 }
 
-.container {
+.newsletter-section .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-input {
-    /* font-size: 2rem;
+.newsletter-section .container form button {
+    padding: 20px 40px;
+    font-size: 2rem;
+}
+
+.newsletter-section .container form input {
+    font-size: 2rem;
     
     padding: 20px;
-    margin-right: 10px; */
+    margin-right: 10px;
 
     border-radius: 5px;
     border: none;
 }
 
-.container h2 {
+.newsletter-section .container h2 {
     font-size: 3rem;
 }
 
+@media screen and (max-width: 1300px) {
+    .newsletter-section .container form button {
+        padding: 15px 35px;
+        font-size: 1.5rem;
+    }
 
+    .newsletter-section .container form input {
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .newsletter-section .container h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .newsletter-section .container form button {
+        padding: 10px 30px;
+        font-size: 1.5rem;
+    }
+
+    .newsletter-section .container form input {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .newsletter-section .container h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .newsletter-section .container {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .newsletter-section .container form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .newsletter-section .container h2 {
+        font-size: 1.5rem;
+    }
+}

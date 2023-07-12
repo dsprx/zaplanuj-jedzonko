@@ -11,17 +11,45 @@
     padding: 50px 0;
 }
 
+.something button {
+    padding: 20px 50px;
+    font-size: 2rem;
+}
+
 .something-text {
     color: white;
     width: 50%;
+    font-size: 1rem;
 
 }
 
 .something-text h2 {
-    font-size: 3.5rem;
+    font-size: 3.5em;
     margin-bottom: 30px;
 }
 
 .something-text p {
-    font-size: 2rem;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .something .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .something-text {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .something-text {
+        font-size: 0.6rem;
+    }
 }

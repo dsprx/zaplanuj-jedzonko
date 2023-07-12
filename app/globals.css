@@ -16,6 +16,8 @@ body {
   overflow-x: hidden;
 
   font-size: 10px;
+
+  scroll-behavior: smooth;
 }
 
 a {

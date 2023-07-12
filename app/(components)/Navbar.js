@@ -2,6 +2,7 @@ import Logo from "./Logo"
 import Link from "next/link"
 
 import "@/(styles)/Navbar.css"
+import HamburgerMenu from "./HamburgerMenu"
 
 export default function Navbar() {
     return (
@@ -10,10 +11,11 @@ export default function Navbar() {
                 <Logo/>
                 <div className="links">
                     <Link href="/auth">ZAPLANUJ POSIŁKI</Link>
-                    <a href="/">DLACZEGO WARTO?</a>
-                    <a href="/">O MNIE</a>
-                    <a href="/">KONTAKT</a>
+                    <a href="#benefits">DLACZEGO WARTO?</a>
+                    <a href="#about">O MNIE</a>
+                    <a href="#contact">KONTAKT</a>
                 </div>
+                <HamburgerMenu/>
             </div>
         </nav>
     )

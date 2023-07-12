@@ -22,7 +22,19 @@
     font-size: 1.5rem;
 }
 
-.container {
+#benefits {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    #benefits {
+        width: 100%;
+        flex-direction: column;
+    }
 }

@@ -9,29 +9,22 @@ export default function Newsletter() {
         margin: 10
     }
 
-    const buttonStyle = {
-        text: "ZAPISUJĘ SIĘ",
-        pSides: 40,
-        pTop: 20,
-        fontSize: "2rem"
-    }
-
     return (
         <div className="newsletter-section">
             <div className="container">
                  <h2>Zapisz się do naszego newslettera</h2>
-                <NewsletterForm inputSpecs={inputStyle} buttonSpecs={buttonStyle}/>
+                <NewsletterForm/>
             </div>
         </div>
     )
 }
 
-export function NewsletterForm({ inputSpecs, buttonSpecs }) {
+export function NewsletterForm() {
 
     return (
         <form>
-            <input style={inputSpecs} type="email" placeholder="Adres e-mail"/>
-            <Button {...buttonSpecs}/>
+            <input type="email" placeholder="Adres e-mail"/>
+            <Button text="ZAPISUJĘ SIĘ"/>
         </form>
     )
 }

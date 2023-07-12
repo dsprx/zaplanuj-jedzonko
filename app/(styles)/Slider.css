@@ -7,10 +7,11 @@
     align-items: center;
 
     background-size: cover;
+    background-position: center;
 
     position: relative;
 
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .slider::after {
@@ -34,7 +35,7 @@
     font-size: 5rem;
     font-weight: bolder;
 
-    padding: 250px 80px;
+    padding: 250px 25px;
 
     z-index: 2;
 }
@@ -48,5 +49,21 @@
 
     text-align: center;
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .slider-text {
+        font-size: 2rem;
+    }
+
+    .slider button {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slider-text {
+        font-size: 1.5rem;
+    }
 }
