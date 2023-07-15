@@ -1,6 +1,6 @@
 :root {
   --color-dark-gray: #4a4a49;
-  --color-light-gray: #A1A194;
+  --color-light-gray: #dbd9d9;
   --color-orange: orange;
 }
 
@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
 
   font-size: 10px;
+  font-family: sans-serif;
 
   scroll-behavior: smooth;
 }
