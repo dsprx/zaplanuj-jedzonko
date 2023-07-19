@@ -4,10 +4,6 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Logo from "@/(components)/Logo";
 
 import "./(styles)/Auth.css";
-import '@fortawesome/fontawesome-svg-core/styles.css';
-
-import { config } from '@fortawesome/fontawesome-svg-core';
-config.autoAddCss = false;
 
 export default function AuthLayout({ children }) {
 
@@ -16,7 +12,7 @@ export default function AuthLayout({ children }) {
             <head>
                 <title>Zaplanuj jedzonko</title>
             </head>
-            <body>
+            <body className="bg-body">
                 <div className="login-card">
                     <Link href="/">
                         <div className="btn-back">

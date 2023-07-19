@@ -2,6 +2,7 @@
   --color-dark-gray: #4a4a49;
   --color-light-gray: #dbd9d9;
   --color-orange: orange;
+  --color-green: #468966;
 }
 
 * {
@@ -29,4 +30,9 @@ a {
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+
+.bg-body {
+  background-image: url(../public/images/background.png);
 }
